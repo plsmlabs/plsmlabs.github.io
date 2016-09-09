@@ -1,0 +1,116 @@
+html
+{
+	background: url("../images/subtlepatterns/footer_lodyas.png") repeat black;
+}
+
+body
+{
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	margin: 5% auto;
+	padding: 5%;
+	color:white;
+}
+
+h1
+{
+	font-weight:400;
+}
+
+ul
+{
+	list-style-type: none;
+	text-align:center;
+	margin:0;
+	padding:0;
+}
+
+li
+{
+	position:relative;
+	display:inline;
+	background:repeating-linear-gradient(
+		45deg,
+		#ccb808,
+		#ccb808 10px,
+		#000 10px,
+		#000 20px
+		);
+	padding:.5rem;
+	margin:.25rem .5rem;
+	text-align:center;
+	border-radius:3px;
+	border:2px solid white;
+	color:white;
+	font-weight: bold;
+	text-shadow: 1px 1px black;
+	transition: all .3s ease;
+
+}
+
+li:hover
+{	
+	border:2px solid gray;
+	cursor:not-allowed;
+	transition:all .3s ease;
+}
+
+@media screen and (max-width:480px) {
+	li
+	{
+		display:block;
+	}
+}
+
+.span-spaced
+{
+	padding:0.5rem 1rem;
+}
+
+.we-are
+{
+	margin:0 auto 0;
+	padding: 1rem;
+	max-width:25rem;
+	text-align:center;
+	background: url("../images/subtlepatterns/cartographer.png") repeat #ddd;
+	background-position: 17px 10px;
+	box-shadow: 0px 4px 12px 0 black;
+}
+
+.coming-soon
+{
+	font-weight:700;
+}
+
+.tba
+{
+	margin-top:1rem;
+	padding-top:1rem;
+}
+
+/* COLOR ATOMS */
+
+/* 
+   not necessarily all used (yet?) but may be in future. 
+   extracted from google drive template used in initial 
+   doc submission.
+*/
+
+.color-white{ color:white }
+.bgcolor-white{ background-color:white }
+.color-black{ color:black }
+.bgcolor-black{ background-color:black }
+
+.color-lightgray{ color:rgb(228,228,230) }
+.bgcolor-lightgray{ background-color:rgb(228,228,230) }
+
+.color-mediumgray{ color:rgb(194,194,196) }
+.bgcolor-mediumgray{ background-color:rgb(194,194,196) }
+
+.color-darkgray{ color:rgb(126,128,118) }
+.bgcolor-darkgray{ background-color:rgb(126,128,118) }
+
+.color-darkestgray{ color:rgb(51,51,51) }
+.bgcolor-darkestgray{ background-color:rgb(51,51,51) }
+
